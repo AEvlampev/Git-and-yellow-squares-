@@ -34,7 +34,6 @@ class MyWidget(QMainWindow):
             qp.drawEllipse(x_ell, y_ell, x_ell, x_ell)
 
 
-
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     ex = MyWidget()
